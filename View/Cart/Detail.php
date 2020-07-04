@@ -44,10 +44,8 @@ $sum=0;
     foreach($_SESSION["mycart"] as $key=>$val){
         $row=$pro->getHangHoaById($key);
         $sum+=$val*$row["DonGia"];
-        // echo "<tr>";
         echo "<td class=\"product-remove\">";
         echo        "<a title=\"Remove this item\" class=\"remove\" href=\"index.php?mod=cart&act=delete&id=$key\" onclick=\"return IsDelete()\">×</a><td>";
-      //  echo "<td><img height=\"50\"  src=\"Upload/$row[ImageUrl]\" /></td>";
         echo    "<a href=\"single-product.html\"><img width=\"145\" height=\"145\" alt=\"\" class=\"shop_thumbnail\" src=\"Upload/$row[Hinh]\"></a></td>";
 
         echo "<td class=\"product-thumbnail\">";
@@ -74,7 +72,7 @@ $sum=0;
                                     <tbody>
                                         <tr class="cart-subtotal">
                                             <th>Tổng giỏ hàng</th>
-                                            <td><span class="amount"><?php echo number_format($sum,0);?>đ</span></td>
+                                            <td><span class="amount"><?php echo number_format($sum,0);?>Đ</span></td>
                                         </tr>
 
                                         <tr class="shipping">

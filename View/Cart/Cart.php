@@ -1,5 +1,5 @@
 <div class="shopping-item mx-4">
-	<a href="index.php?mod=cart&act=detail" id="btnGioHang">Giỏ hàng<span class="cart-amunt"></span> <i class="fa fa-shopping-cart"></i>
+	<a href="index.php?mod=cart&act=detail" id="btnGioHang">Giỏ hàng<span class="cart-amunt"></span> <i class="fa fa-shopping-cart"> </i>
 
 	<?php
 		if(isset($_SESSION['mycart'])){

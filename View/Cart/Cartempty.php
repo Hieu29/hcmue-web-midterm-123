@@ -18,9 +18,8 @@
                 <div class="col-md-4">
                     <div class="single-sidebar">
                         <h2 class="sidebar-title">Tìm kiếm</h2>
-                        <!--Start Search Products-->
+
                         
-                        <!--End search products-->
                     </div>
                     
                     <div class="single-sidebar">
