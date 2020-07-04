@@ -23,8 +23,7 @@
                         include_once("Controller/HangHoa/Manage.php");
                     }
             ?>
-            </div> <!-- /content -->
-
+            </div> 
             <!-- Right column -->
             <div id="col" style="float: left; width: 215px; margin-left: 30px; border-right: 1px solid #ddd; min-height: 400px;">
                 <div id="col-in">
